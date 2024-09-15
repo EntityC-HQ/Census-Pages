@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js, ts, jsx, tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cutmark: ["Cutmark Narrow", "sans-serif"],
+        "no-exit": ["No Exit", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

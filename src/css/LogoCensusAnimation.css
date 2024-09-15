@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+@font-face {
+  font-family: "No Exit";
+  src: url("/path/to/fonts/NoExit-Medium-Semi-Condensed.woff2") format("woff2"),
+    url("/path/to/fonts/NoExit-Medium-Semi-Condensed.woff") format("woff");
+  font-weight: 800; /* Adjust weight if needed */
+  font-style: normal; /* Adjust style if needed */
+}
+
+#container {
+  position: flex;
+  width: 0vw;
+  height: 0vh;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  width: 0vw;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "font-no-exit";
+  font-size: 3.35vw;
+}
