@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" mt-10 ">
+    <div className=" mt-2 ">
       <p className="md:text-3xl text-xl mb-4">
         We see the <span className="text-red-500">path</span>,
       </p>
@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
-      <div className="flex justify-center space-x-3 mt-4">
+      <div className="flex justify-center space-x-3 mt-4 mb-4">
         <div className="md:h-8 md:w-8 h-4 w-4 border-2 border-white" />
         <div className="md:h-8 md:w-8 h-4 w-4 bg-red-500" />
         <div className="md:h-8 md:w-8 h-4 w-4 border-2 border-white" />
