@@ -17,7 +17,7 @@ const Footer = () => {
           of{" "}
           <a
             className="text-red-500 font-bold md:text-4xl text-2xl border-b-2 border-red-500 "
-            href={import.meta.VITE_APP_ENTITY_C_URL}
+            href={import.meta.env.VITE_APP_ENTITY_C_URL}
           >
             EntityC
           </a>
