@@ -6,8 +6,7 @@ const Header = () => {
       <header className="flex flex-col p-2 md:p-4 bg-black">
         <div className="flex flex-row mr-20 ml-0">
           <a
-            href="#Census"
-            // target="_blank" // Enable open in new tab
+            href="/"
             rel="noopener noreferrer"
             className="text-white flex w-1/5 -ml-3 md:-ml-36 "
           >
@@ -24,12 +23,12 @@ const Header = () => {
         <a href="#Blog">
           <span className="md:mr-20 mr-10 hover:text-red-500">Blog</span>
         </a>
-        <a href="#">
+        <a href="#Twitter/X">
           <span className="md:mr-20 mr-10 hover:text-red-500">Twitter/X</span>
         </a>
-        <a href="#">
+        <a href="#Discord-Research Hub">
           <span className="md:mr-20 mr-10 hover:text-red-500">
-            Discord-Research Hub
+            Discord-Research-Hub
           </span>
         </a>
       </div>
