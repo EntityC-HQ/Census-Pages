@@ -14,19 +14,19 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <p className="text-xs md:text-sm text-white text-right mt-2.5 md:-mt-10 font-no-exit">
+          <p className="text-xs md:text-sm text-white text-right mt-2.5 md:-mt-10 ">
             where [c] stands for more than just crypto
           </p>
         </div>
       </header>
-      <div className="text-right text-white md:text-2xl text-sm font-no-exit ">
-        <a href="#Blog">
+      <div className="text-right text-white md:text-2xl text-sm  ">
+        <a href={import.meta.env.VITE_APP_BLOG_URL}>
           <span className="md:mr-20 mr-10 hover:text-red-500">Blog</span>
         </a>
-        <a href="#Twitter/X">
+        <a href={import.meta.env.VITE_APP_X_URL}>
           <span className="md:mr-20 mr-10 hover:text-red-500">Twitter/X</span>
         </a>
-        <a href="#Discord-Research Hub">
+        <a href={import.meta.env.VITE_APP_DISCORD_HUB_URL}>
           <span className="md:mr-20 mr-10 hover:text-red-500">
             Discord-Research-Hub
           </span>
