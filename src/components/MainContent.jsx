@@ -19,7 +19,6 @@ const MainContent = () => {
           <span className="border-b-4 border-red-500 inline-block w-16 sm:w-24"></span>
         </p>
       </div>
-      <span className="mt-10 border-b-2 border-red-500 inline-block w-full opacity-45"></span>
     </div>
   );
 };
