@@ -56,7 +56,7 @@ const LogoCensus = () => {
         </div>
       </div>
       {hovered && (
-        <div className="2xl:mt-16 xl:mt-11 lg:mt-10 md:mt-7 mt-2">
+        <div className="2xl:mt-14 xl:mt-11 lg:mt-10 md:mt-7 mt-2">
           <div className="mt-2">
             <LogoCensusAnimation />
           </div>
