@@ -83,7 +83,10 @@ const LogoCensusAnimation = () => {
   }, []);
 
   return (
-    <div id="container" className="flex items-center justify-center">
+    <div
+      id="container"
+      className="flex items-center justify-center 2xl:-mt-8 xl:-mt-6 lg:-mt-5 md:-mt-4 -mt-2.5"
+    >
       <span className="text1" id="text1" ref={text1Ref}></span>
       <span id="text2" ref={text2Ref}></span>
       <svg id="filters">
